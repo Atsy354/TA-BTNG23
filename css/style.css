@@ -1,0 +1,22 @@
+.Home {
+  padding: 2rem 1rem;
+  background-color: #8e9aae;
+}
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+ul li a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.container1 {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/147/212/931/indonesia-mount-bromo-mountain-clouds-wallpaper-preview.jpg);
+  background-size: cover;
+}
+
+.container1 h1 {
+  color: black;
+}

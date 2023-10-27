@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- CSS Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS External -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- LINK GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- LINK FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar Strat -->
+    <nav class="navbar navbar-expand-lg shadow-sm p-3 fixed-top bg-dark">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-3 text-danger" href="#"
+          >Mountain <span class="text-light">Of Indonesia</span></a
+        >
+        <button
+          class="navbar-toggler bg-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-light fs-5" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light fs-5 ms-0- ms-lg-3" href="#about"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light fs-5 ms-0- ms-lg-3" href="#gallery"
+                >Gallery</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light fs-5 ms-0- ms-lg-3" href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Start -->
+    <section id="home">
+      <div class="container1">
+        <div
+          class="d-flex flex-column justify-content-center vh-100 align-items-center"
+        >
+          <h1 class="fw-bold text-center">
+            Welcome To <br />
+            Mountain Of Indonesia
+          </h1>
+
+          <a href="#about" class="btn btn-primary fs-5 fw-bold mt-2">
+            let's Go
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Hero End -->
+
+    <!-- About Start -->
+    <section id="about">
+      <div class="container">
+        <div class="title text-center mb-4 mt-5">
+          <h1 class="fw-bold">About</h1>
+        </div>
+        <div class="row gy-3 justify-content-center pt-5">
+          <div class="col-12 col-lg-6 w-25">
+            <img
+              src="./img/Indonesia-Mount.jpg"
+              alt=""
+              class="img-fluid rounded"
+            />
+          </div>
+          <div class="col-12 col-lg-6">
+            <p style="text-align: justify">
+              Pegunungan atau disebut juga banjaran dan barisan merupakan suatu
+              area geografis berupa rentetan dari beberapa gunung-gunung atau
+              bukit yang terkait secara geologis yang membentuk suatu deret atau
+              bentangan. Pegunungan yang terdiri dari gunung-gunung merupakan
+              salah satu lanskap di daratan yang membentuk suatu ekosistem
+              tersendiri. Wilayah pegunungan menjadi pendukung utama dalam
+              ekologi manusia yang menghuninya atau bermukim sebagai penduduk di
+              sekelilingnya. Pegunungan merupakan lingkungan yang sesuai untuk
+              penanaman sayuran ditinjau dari segi agroklimat. Petani di
+              pegunungan kesulitan menanam padi-padian di pegunungan karena
+              suhunya terlalu rendah untuk pertumbuhannya. Pegunungan merupakan
+              salah satu simbol pemujaan oleh penganut agama Hindu dan agama
+              Buddha di Pulau Jawa dan Pulau Bali. Candi-candi didirikan oleh
+              para penganut Hindu dan Buddha di pegunungan untuk pemujaan.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About End -->
+
+    <!-- Gallery Start -->
+    <section id="gallery" class="bg-light">
+      <div class="container">
+        <div class="title text-center mb-5">
+          <h1 class="fw-bold">Gallery</h1>
+          <p>
+            Ada beberapa macam pegunungan yang ada diindonesia
+          </p>
+        </div>
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/bromo-sunrise.jpg" class="w-100" >
+              <P class="fw-bold fs-5">Gunung Bromo</P>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/gunung merbabu.jpg" class="d-block w-100 " >
+              <p class="fw-bold fs-5">Gunung Merbabu</p>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/gunung semeru.jpeg" class="d-block w-100" >
+              <p class="fw-bold fs-5">Gunung Semeru</p>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- Gallery End -->
+
+    <!-- Contact Start -->
+    <section id="contact">
+      <div class="container">
+        <div class="title text-center mb-4">
+          <h1 class="fw-bold">Contact Me</h1>
+         
+        </div>
+
+        <form>
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control p-3"
+                  id="exampleInputEmail1"
+                  placeholder="youremail@gmail.com"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Phone Number</label
+                >
+                <input
+                  type="text"
+                  class="form-control p-3"
+                  placeholder="example: 0858382383"
+                />
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Your Message</label
+                >
+                <textarea
+                  class="form-control p-3"
+                  placeholder="Your message..."
+                ></textarea>
+              </div>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <footer class="p-4 bg-dark text-light text-center mt-5">
+      Copyright © 2022 DNCC. All Rights Reserved
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Js Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
