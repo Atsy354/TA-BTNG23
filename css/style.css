@@ -13,10 +13,22 @@ ul li a:hover {
 }
 
 .container1 {
-  background-image: url(https://c4.wallpaperflare.com/wallpaper/147/212/931/indonesia-mount-bromo-mountain-clouds-wallpaper-preview.jpg);
+  background-image: url(https://wallpaperaccess.com/full/4527179.jpg);
   background-size: cover;
 }
 
 .container1 h1 {
   color: black;
+}
+
+#contact {
+  padding-top: 10px;
+}
+
+.card {
+  cursor: pointer;
+}
+
+#about img {
+  cursor: pointer;
 }
