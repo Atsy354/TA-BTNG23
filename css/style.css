@@ -13,8 +13,10 @@ ul li a:hover {
 }
 
 .container1 {
-  background-image: url(https://wallpaperaccess.com/full/4527179.jpg);
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/97/833/155/mountains-firewatch-green-forest-wallpaper-preview.jpg);
   background-size: cover;
+  background-attachment: fixed;
+  backface-visibility: visible;
 }
 
 .container1 h1 {
